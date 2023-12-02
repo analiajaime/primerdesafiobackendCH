@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de productos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <body>
+        <h1>Gestor de Productos</h1>
+    
+        <form id="productForm">
+            <input type="text" id="title" placeholder="Nombre del producto" required>
+            <input type="text" id="description" placeholder="Descripción del producto" required>
+            <input type="number" id="price" placeholder="Precio" required>
+            <input type="text" id="thumbnail" placeholder="Ruta de imagen" required>
+            <input type="text" id="code" placeholder="Código identificador" required>
+            <input type="number" id="stock" placeholder="Número de piezas disponibles" required>
+            <button type="submit">Agregar Producto</button>
+        </form>
+    
+        <div id="productsContainer"></div>
+    
+        <script src="app.js"></script>
+
+</body>
+</html>
